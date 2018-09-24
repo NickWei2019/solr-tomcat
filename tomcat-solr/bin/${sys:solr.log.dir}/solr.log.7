@@ -1,0 +1,584 @@
+2018-09-03 15:39:36.755 INFO  (localhost-startStop-1) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2018-09-03 15:39:36.815 ERROR (localhost-startStop-1) [   ] o.a.s.u.StartupLoggingUtils Missing Java Option solr.log.dir. Logging may be missing or incomplete.
+2018-09-03 15:39:36.818 INFO  (localhost-startStop-1) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2018-09-03 15:39:36.825 INFO  (localhost-startStop-1) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.4.0
+2018-09-03 15:39:36.825 INFO  (localhost-startStop-1) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port null
+2018-09-03 15:39:36.825 INFO  (localhost-startStop-1) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: null
+2018-09-03 15:39:36.899 INFO  (localhost-startStop-1) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-09-03T07:39:36.828Z
+2018-09-03 15:39:36.925 INFO  (localhost-startStop-1) [   ] o.a.s.c.SolrResourceLoader Using JNDI solr.home: /Users/ty/Documents/solr/solrhome
+2018-09-03 15:39:36.940 INFO  (localhost-startStop-1) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/ty/Documents/solr/solrhome/solr.xml
+2018-09-03 15:39:37.018 INFO  (localhost-startStop-1) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@2437c6dc, but no JMX reporters were configured - adding default JMX reporter.
+2018-09-03 15:39:38.215 INFO  (localhost-startStop-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-09-03 15:39:38.226 INFO  (localhost-startStop-1) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2018-09-03 15:39:38.332 INFO  (localhost-startStop-1) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@2437c6dc
+2018-09-03 15:39:38.334 INFO  (localhost-startStop-1) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@2437c6dc
+2018-09-03 15:39:38.334 INFO  (localhost-startStop-1) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@2437c6dc
+2018-09-03 15:39:38.376 INFO  (localhost-startStop-1) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /Users/ty/Documents/solr/solrhome
+2018-09-03 15:39:38.380 INFO  (localhost-startStop-1) [   ] o.a.s.c.CorePropertiesLocator Cores are: [new_core]
+2018-09-03 15:39:38.481 WARN  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.c.SolrConfig Couldn't add files from /Users/ty/Documents/solr/solrhome/new_core/../../../../contrib/extraction/lib filtered by .*\.jar to classpath: /Users/ty/Documents/solr/solrhome/new_core/../../../../contrib/extraction/lib
+2018-09-03 15:39:38.482 WARN  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.c.SolrConfig Couldn't add files from /Users/ty/Documents/solr/solrhome/new_core/../../../../dist filtered by solr-cell-\d.*\.jar to classpath: /Users/ty/Documents/solr/solrhome/new_core/../../../../dist
+2018-09-03 15:39:38.483 WARN  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.c.SolrConfig Couldn't add files from /Users/ty/Documents/solr/solrhome/new_core/../../../../contrib/clustering/lib filtered by .*\.jar to classpath: /Users/ty/Documents/solr/solrhome/new_core/../../../../contrib/clustering/lib
+2018-09-03 15:39:38.483 WARN  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.c.SolrConfig Couldn't add files from /Users/ty/Documents/solr/solrhome/new_core/../../../../dist filtered by solr-clustering-\d.*\.jar to classpath: /Users/ty/Documents/solr/solrhome/new_core/../../../../dist
+2018-09-03 15:39:38.484 WARN  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.c.SolrConfig Couldn't add files from /Users/ty/Documents/solr/solrhome/new_core/../../../../contrib/langid/lib filtered by .*\.jar to classpath: /Users/ty/Documents/solr/solrhome/new_core/../../../../contrib/langid/lib
+2018-09-03 15:39:38.485 WARN  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.c.SolrConfig Couldn't add files from /Users/ty/Documents/solr/solrhome/new_core/../../../../dist filtered by solr-langid-\d.*\.jar to classpath: /Users/ty/Documents/solr/solrhome/new_core/../../../../dist
+2018-09-03 15:39:38.487 WARN  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.c.SolrConfig Couldn't add files from /Users/ty/Documents/solr/solrhome/new_core/../../../../contrib/velocity/lib filtered by .*\.jar to classpath: /Users/ty/Documents/solr/solrhome/new_core/../../../../contrib/velocity/lib
+2018-09-03 15:39:38.488 WARN  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.c.SolrConfig Couldn't add files from /Users/ty/Documents/solr/solrhome/new_core/../../../../dist filtered by solr-velocity-\d.*\.jar to classpath: /Users/ty/Documents/solr/solrhome/new_core/../../../../dist
+2018-09-03 15:39:38.568 INFO  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.4.0
+2018-09-03 15:39:38.911 INFO  (coreLoadExecutor-9-thread-1) [   x:new_core] o.a.s.s.IndexSchema [new_core] Schema name=default-config
+2018-09-03 15:39:40.576 INFO  (http-nio-8080-exec-4) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960379954} status=0 QTime=111
+2018-09-03 15:39:40.731 INFO  (http-nio-8080-exec-6) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960379955} status=0 QTime=265
+2018-09-03 15:39:41.267 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be loaded on startup
+org.apache.solr.common.SolrException: Unable to create core [new_core]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1156) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197) ~[metrics-core-3.2.6.jar:3.2.6]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_171]
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209) ~[solr-solrj-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_171]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131) ~[solr-core-7.4.0.jar:7.4.0 9060ac689c270b02143f375de0348b7f626adebc - jpountz - 2018-06-18 16:55:13]
+	... 7 more
+2018-09-03 15:39:43.478 INFO  (http-nio-8080-exec-3) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960383208} status=0 QTime=0
+2018-09-03 15:39:43.493 ERROR (http-nio-8080-exec-1) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:39:43.499 ERROR (http-nio-8080-exec-4) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:39:43.561 INFO  (http-nio-8080-exec-7) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960383209} status=0 QTime=82
+2018-09-03 15:39:45.283 INFO  (http-nio-8080-exec-3) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960384974} status=0 QTime=0
+2018-09-03 15:39:45.284 ERROR (http-nio-8080-exec-6) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:39:45.288 ERROR (http-nio-8080-exec-4) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:39:45.325 INFO  (http-nio-8080-exec-9) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960384975} status=0 QTime=43
+2018-09-03 15:39:46.553 INFO  (http-nio-8080-exec-6) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960386287} status=0 QTime=0
+2018-09-03 15:39:46.557 ERROR (http-nio-8080-exec-6) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:39:46.562 ERROR (http-nio-8080-exec-6) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:39:46.611 INFO  (http-nio-8080-exec-4) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960386288} status=0 QTime=42
+2018-09-03 15:39:53.905 INFO  (http-nio-8080-exec-1) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960393654} status=0 QTime=0
+2018-09-03 15:39:53.930 ERROR (http-nio-8080-exec-8) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:39:53.946 ERROR (http-nio-8080-exec-5) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:39:53.979 INFO  (http-nio-8080-exec-2) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960393655} status=0 QTime=51
+2018-09-03 15:44:11.887 INFO  (http-nio-8080-exec-2) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960651500} status=0 QTime=0
+2018-09-03 15:44:11.896 ERROR (http-nio-8080-exec-4) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:44:11.910 ERROR (http-nio-8080-exec-9) [   ] o.a.s.s.HttpSolrCall null:org.apache.solr.core.SolrCoreInitializationException: SolrCore 'new_core' is not available due to init failure: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:1590)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:249)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:377)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:323)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core new_core: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1184)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1131)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:681)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /Users/ty/Documents/solr/solrhome/new_core/conf/schema.xml: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Unknown fieldType 'long' specified on field item_goodsid
+	at org.apache.solr.schema.IndexSchema.loadFields(IndexSchema.java:640)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:476)
+	... 14 more
+
+2018-09-03 15:44:12.101 INFO  (http-nio-8080-exec-8) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960651500} status=0 QTime=211
+2018-09-03 15:44:15.830 INFO  (http-nio-8080-exec-5) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960655667} status=0 QTime=0
+2018-09-03 15:44:15.892 INFO  (http-nio-8080-exec-1) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960655667} status=0 QTime=62
+2018-09-03 15:44:15.897 INFO  (http-nio-8080-exec-2) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960655667} status=0 QTime=67
+2018-09-03 15:44:19.614 INFO  (http-nio-8080-exec-5) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1535960655667} status=0 QTime=0
+2018-09-03 15:44:19.616 INFO  (http-nio-8080-exec-7) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960655667} status=0 QTime=0
+2018-09-03 15:44:19.666 INFO  (http-nio-8080-exec-4) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960655667} status=0 QTime=50
+2018-09-03 15:44:21.431 INFO  (http-nio-8080-exec-6) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960655667} status=0 QTime=1
+2018-09-03 15:44:21.437 INFO  (http-nio-8080-exec-2) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1535960661401&since=0} status=0 QTime=7
+2018-09-03 15:44:21.497 INFO  (http-nio-8080-exec-6) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960655667} status=0 QTime=58
+2018-09-03 15:44:22.553 INFO  (http-nio-8080-exec-7) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1535960655667} status=0 QTime=2
+2018-09-03 15:44:22.556 INFO  (http-nio-8080-exec-8) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1535960655667} status=0 QTime=0
+2018-09-03 15:44:22.593 INFO  (http-nio-8080-exec-9) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1535960655667} status=0 QTime=40
+2018-09-03 15:45:10.317 INFO  (localhost-startStop-2) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1068129155
+2018-09-03 15:45:10.321 INFO  (localhost-startStop-2) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-09-03 15:45:10.323 INFO  (localhost-startStop-2) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@48c586cf: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@63f92ec3
+2018-09-03 15:45:10.329 INFO  (localhost-startStop-2) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-09-03 15:45:10.330 INFO  (localhost-startStop-2) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@64bec8bc: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@bd70937
+2018-09-03 15:45:10.332 INFO  (localhost-startStop-2) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-09-03 15:45:10.333 INFO  (localhost-startStop-2) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@b793dab: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@2172a1b8

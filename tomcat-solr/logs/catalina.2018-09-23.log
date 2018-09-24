@@ -1,0 +1,93 @@
+23-Sep-2018 07:41:58.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.33
+23-Sep-2018 07:41:58.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2018 08:20:08 UTC
+23-Sep-2018 07:41:58.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.33.0
+23-Sep-2018 07:41:58.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+23-Sep-2018 07:41:58.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.5
+23-Sep-2018 07:41:58.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+23-Sep-2018 07:41:58.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre
+23-Sep-2018 07:41:58.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+23-Sep-2018 07:41:58.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Sep-2018 07:41:58.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/ty/Documents/solr/tomcat-solr-2
+23-Sep-2018 07:41:58.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/ty/Documents/solr/tomcat-solr-2
+23-Sep-2018 07:41:58.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/ty/Documents/solr/tomcat-solr-2/conf/logging.properties
+23-Sep-2018 07:41:58.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Sep-2018 07:41:58.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Sep-2018 07:41:58.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Sep-2018 07:41:58.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Sep-2018 07:41:58.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Sep-2018 07:41:58.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/ty/Documents/solr/tomcat-solr-2
+23-Sep-2018 07:41:58.187 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ty/Documents/solr/tomcat-solr-2
+23-Sep-2018 07:41:58.187 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ty/Documents/solr/tomcat-solr-2/temp
+23-Sep-2018 07:41:58.187 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ty/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Sep-2018 07:41:58.443 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Sep-2018 07:41:58.486 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Sep-2018 07:41:58.500 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2018 07:41:58.502 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Sep-2018 07:41:58.502 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 932 ms
+23-Sep-2018 07:41:58.538 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Sep-2018 07:41:58.538 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.33
+23-Sep-2018 07:41:58.551 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/docs]
+23-Sep-2018 07:41:58.975 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/docs] has finished in [424] ms
+23-Sep-2018 07:41:58.976 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/solr]
+23-Sep-2018 07:42:04.474 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Sep-2018 07:42:06.795 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/solr] has finished in [7,819] ms
+23-Sep-2018 07:42:06.795 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/manager]
+23-Sep-2018 07:42:06.935 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/manager] has finished in [140] ms
+23-Sep-2018 07:42:06.937 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/examples]
+23-Sep-2018 07:42:07.438 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/examples] has finished in [501] ms
+23-Sep-2018 07:42:07.438 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/ROOT]
+23-Sep-2018 07:42:07.465 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/ROOT] has finished in [27] ms
+23-Sep-2018 07:42:07.465 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/host-manager]
+23-Sep-2018 07:42:07.497 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ty/Documents/solr/tomcat-solr-2/webapps/host-manager] has finished in [32] ms
+23-Sep-2018 07:42:07.504 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Sep-2018 07:42:07.514 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2018 07:42:07.516 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 9012 ms
+23-Sep-2018 08:25:38.895 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 08:35:31.770 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 08:45:37.852 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 09:52:18.313 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 10:07:21.699 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 10:12:32.082 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 10:13:40.014 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 10:19:56.731 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 10:28:12.038 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 10:53:48.045 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 11:16:32.888 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 11:23:22.116 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 11:37:56.286 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 12:26:40.974 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 15:31:38.508 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 15:36:01.621 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 16:07:04.932 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 16:10:33.030 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 16:11:18.184 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 16:11:46.678 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 16:13:39.482 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 16:15:10.560 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 16:18:54.379 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 16:23:47.297 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 16:40:41.049 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:08:39.471 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:09:28.652 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:15:25.064 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:24:06.374 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:28:45.979 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:30:44.477 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:36:57.035 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:38:32.776 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:41:00.193 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:43:19.456 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 17:54:25.418 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 18:22:43.643 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 18:30:35.943 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 18:33:12.476 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 19:00:07.924 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 19:01:37.294 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 19:06:35.462 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+23-Sep-2018 21:35:12.435 信息 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Sep-2018 21:35:12.534 信息 [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2018 21:35:12.606 信息 [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Sep-2018 21:35:12.909 信息 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Sep-2018 21:35:12.915 信息 [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Sep-2018 21:35:12.920 信息 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Sep-2018 21:35:12.921 信息 [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
