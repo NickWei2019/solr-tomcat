@@ -38,7 +38,7 @@ If you finish install and change, you can run this solr project, using `./startu
 
 If you see this page, it shows that the project is running successfully:
 
-![](peoject.png)
+![](project.png)
 
 <br/>
 
